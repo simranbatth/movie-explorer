@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "feature-details",
+    "feature-home",
+    "main",
+    "origin",
+    "revert-1-feature-details"
+  ],
+  "parent": {
+    "feature-details": "main",
+    "feature-home": "main",
+    "main": null,
+    "origin": "main",
+    "revert-1-feature-details": "main"
+  },
+  "order": [
+    "main",
+    "feature-details",
+    "feature-home",
+    "origin",
+    "revert-1-feature-details"
+  ]
+}
