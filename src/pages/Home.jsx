@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-
+//  najuck testing
 console.log(import.meta.env);
 const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
 
