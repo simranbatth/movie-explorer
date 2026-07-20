@@ -1,11 +1,11 @@
-.hero {
-  min-height: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 20px;
+.hero{
+    min-height: 70vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px 20px;
 }
 
 .hero h1 {
@@ -18,11 +18,12 @@
     max-width: 700px;
 }
 
-.hero p {
-
-  font-size: 1.2rem;
-  margin-bottom: 25px;
-  color: #cbd5e1;
+.hero p{
+    font-size:1.2rem;
+    margin-bottom:25px;
+    color:#cbd5e1;
+    max-width:700px;
+    line-height:1.6;
 }
 
 .hero button {
