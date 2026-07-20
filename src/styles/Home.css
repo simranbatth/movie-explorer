@@ -1,0 +1,55 @@
+/* Search Section */
+
+.search-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+
+.search-section input{
+    width: 450px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+
+.search-section button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background: #ff4d4d;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+
+/* Movies Section */
+
+.movies-section{
+    width:90%;
+    margin:auto;
+}
+
+.movies-section h2{
+    color:white;
+    font-size:2rem;
+    margin-bottom:30px;
+}
+
+
+
+/* Movie Grid */
+
+.movie-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap: 30px;
+}
